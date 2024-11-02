@@ -1,0 +1,7 @@
+CREATE TABLE StudentID (StudentID INT, FirstName VARCHAR(100) NOT NULL, LastName VARCHAR(100) NOT NULL, PRIMARY KEY (StudentID));
+CREATE TABLE Course (CourseEnd DATE NOT NULL, Course VARCHAR(100), CourseStart DATE NOT NULL, PRIMARY KEY (Course));
+CREATE TABLE Candidate (StudentID INT, Course VARCHAR(100), Professor VARCHAR(100), PRIMARY KEY (StudentID, Course), FOREIGN KEY (StudentID) REFERENCES StudentID(StudentID), FOREIGN KEY (Course) REFERENCES Course(Course), FOREIGN KEY (Professor) REFERENCES Professor(Professor));
+CREATE TABLE Table_0 (ClassRoom VARCHAR(100) NOT NULL, Professor VARCHAR(100), Course VARCHAR(100), FOREIGN KEY (Professor) REFERENCES Professor(Professor), FOREIGN KEY (Course) REFERENCES Course(Course));
+CREATE TABLE Professor (Professor VARCHAR(100), ProfessorEmail VARCHAR(50) NOT NULL, PRIMARY KEY (Professor));
+
+The given table is In 1NF

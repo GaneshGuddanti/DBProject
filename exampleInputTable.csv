@@ -1,0 +1,8 @@
+StudentID,FirstName,LastName,Course,Professor,ProfessorEmail,CourseStart,CourseEnd,ClassRoom
+101,Ganesh,Guddanti,Math101,Dr.Ricardo,ricardo@mst.edu,1/1/2023,5/30/2023,M1
+101,Ganesh,Guddanti,CS101,Dr.Chaman,chaman@mst.edu,2/1/2023,6/15/2023,C1
+102,Rohith,Yarramreddy,Math101,Dr.Ricardo,ricardo@mst.edu,1/1/2023,5/30/2023,M1
+102,Rohith,Yarramreddy,CS101,Dr.Ricardo,ricardo@mst.edu,2/1/2023,6/15/2023,C2
+103,Jayanth,Vajja,CS101,Dr.Chaman,chaman@mst.edu,2/1/2023,6/15/2023,C1
+104,Bhargav,Dasari,Bio101,Dr.Kang,kang@mst.edu,3/1/2023,7/20/2023,B1
+105,Nazeer,Shaik,CS101,Dr.Chaman,chaman@mst.edu,2/1/2023,6/15/2023,C1
