@@ -47,7 +47,7 @@ Key = input().split(",")
 # Option to Find Highest Normal Form
 print("Find the highest normal form of the input table? (1: Yes, 2: No):")
 input_choice = int(input())
-input_normal_form = "The given table is "
+input_normal_form = "The given input table is "
 if input_choice == 1:
     input_normal_form += check_normal_form(csv_filePath, FD, Key, MVD)
 
